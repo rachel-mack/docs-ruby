@@ -64,9 +64,10 @@ format, but you can specify relaxed or legacy formats by passing a ``mode`` argu
    For more information see, the :manual:`MongoDB Extended JSON v1
    </reference/mongodb-extended-json-v1/>` page in the Server manual. 
 
-The ``as_extended_json`` method is available for many other core and
-standard library types. The following example creates Extended JSON strings in
-the canonical, relaxed, and legacy formats, from an array of hashes:
+The ``as_extended_json`` method is available for several core and standard
+library types, including ``Array`` and ``Hash``. The following example creates
+Extended JSON strings in the canonical, relaxed, and legacy formats, from an
+array of hashes:
 
 .. io-code-block::
     :copyable:
